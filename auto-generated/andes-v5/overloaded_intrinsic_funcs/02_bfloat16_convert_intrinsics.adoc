@@ -1,0 +1,36 @@
+
+=== BFloat16 Convert Intrinsics
+
+[[overloaded-bf16-vector-narrow-convert]]
+==== Vector Narrowing Convert Intrinsics
+
+[,c]
+----
+vbfloat16mf4_t __riscv_nds_vfncvt_bf16(vfloat32mf2_t vs2, size_t vl);
+vbfloat16mf2_t __riscv_nds_vfncvt_bf16(vfloat32m1_t vs2, size_t vl);
+vbfloat16m1_t __riscv_nds_vfncvt_bf16(vfloat32m2_t vs2, size_t vl);
+vbfloat16m2_t __riscv_nds_vfncvt_bf16(vfloat32m4_t vs2, size_t vl);
+vbfloat16m4_t __riscv_nds_vfncvt_bf16(vfloat32m8_t vs2, size_t vl);
+vbfloat16mf4_t __riscv_nds_vfncvt_bf16(vfloat32mf2_t vs2, unsigned int frm,
+                                       size_t vl);
+vbfloat16mf2_t __riscv_nds_vfncvt_bf16(vfloat32m1_t vs2, unsigned int frm,
+                                       size_t vl);
+vbfloat16m1_t __riscv_nds_vfncvt_bf16(vfloat32m2_t vs2, unsigned int frm,
+                                      size_t vl);
+vbfloat16m2_t __riscv_nds_vfncvt_bf16(vfloat32m4_t vs2, unsigned int frm,
+                                      size_t vl);
+vbfloat16m4_t __riscv_nds_vfncvt_bf16(vfloat32m8_t vs2, unsigned int frm,
+                                      size_t vl);
+----
+
+[[overloaded-bf16-vector-widening-convert]]
+==== Vector Widening Convert Intrinsics
+
+[,c]
+----
+vfloat32mf2_t __riscv_nds_vfwcvt_s(vbfloat16mf4_t vs2, size_t vl);
+vfloat32m1_t __riscv_nds_vfwcvt_s(vbfloat16mf2_t vs2, size_t vl);
+vfloat32m2_t __riscv_nds_vfwcvt_s(vbfloat16m1_t vs2, size_t vl);
+vfloat32m4_t __riscv_nds_vfwcvt_s(vbfloat16m2_t vs2, size_t vl);
+vfloat32m8_t __riscv_nds_vfwcvt_s(vbfloat16m4_t vs2, size_t vl);
+----

@@ -1,0 +1,46 @@
+
+=== BFloat16 Convert Intrinsics
+
+[[policy-variant-overloadedbf16-vector-narrow-convert]]
+==== Vector Narrowing Convert Intrinsics
+
+[,c]
+----
+vbfloat16mf4_t __riscv_nds_vfncvt_bf16_tu(vbfloat16mf4_t vd, vfloat32mf2_t vs2,
+                                          size_t vl);
+vbfloat16mf2_t __riscv_nds_vfncvt_bf16_tu(vbfloat16mf2_t vd, vfloat32m1_t vs2,
+                                          size_t vl);
+vbfloat16m1_t __riscv_nds_vfncvt_bf16_tu(vbfloat16m1_t vd, vfloat32m2_t vs2,
+                                         size_t vl);
+vbfloat16m2_t __riscv_nds_vfncvt_bf16_tu(vbfloat16m2_t vd, vfloat32m4_t vs2,
+                                         size_t vl);
+vbfloat16m4_t __riscv_nds_vfncvt_bf16_tu(vbfloat16m4_t vd, vfloat32m8_t vs2,
+                                         size_t vl);
+vbfloat16mf4_t __riscv_nds_vfncvt_bf16_tu(vbfloat16mf4_t vd, vfloat32mf2_t vs2,
+                                          unsigned int frm, size_t vl);
+vbfloat16mf2_t __riscv_nds_vfncvt_bf16_tu(vbfloat16mf2_t vd, vfloat32m1_t vs2,
+                                          unsigned int frm, size_t vl);
+vbfloat16m1_t __riscv_nds_vfncvt_bf16_tu(vbfloat16m1_t vd, vfloat32m2_t vs2,
+                                         unsigned int frm, size_t vl);
+vbfloat16m2_t __riscv_nds_vfncvt_bf16_tu(vbfloat16m2_t vd, vfloat32m4_t vs2,
+                                         unsigned int frm, size_t vl);
+vbfloat16m4_t __riscv_nds_vfncvt_bf16_tu(vbfloat16m4_t vd, vfloat32m8_t vs2,
+                                         unsigned int frm, size_t vl);
+----
+
+[[policy-variant-overloadedbf16-vector-widening-convert]]
+==== Vector Widening Convert Intrinsics
+
+[,c]
+----
+vfloat32mf2_t __riscv_nds_vfwcvt_s_tu(vfloat32mf2_t vd, vbfloat16mf4_t vs2,
+                                      size_t vl);
+vfloat32m1_t __riscv_nds_vfwcvt_s_tu(vfloat32m1_t vd, vbfloat16mf2_t vs2,
+                                     size_t vl);
+vfloat32m2_t __riscv_nds_vfwcvt_s_tu(vfloat32m2_t vd, vbfloat16m1_t vs2,
+                                     size_t vl);
+vfloat32m4_t __riscv_nds_vfwcvt_s_tu(vfloat32m4_t vd, vbfloat16m2_t vs2,
+                                     size_t vl);
+vfloat32m8_t __riscv_nds_vfwcvt_s_tu(vfloat32m8_t vd, vbfloat16m4_t vs2,
+                                     size_t vl);
+----

@@ -1,0 +1,30 @@
+
+=== BFloat16 Mode Switch Miscellaneous Vector Utility Intrinsics
+
+[[policy-variant-overloadedbf16-mode-switch-reinterpret-cast-conversion]]
+==== BFloat16 Mode Switch Reinterpret Cast Conversion Intrinsics
+Intrinsics here don't have a policy variant.
+
+[[policy-variant-overloadedbf16-mode-switch-vector-lmul-extensionn]]
+==== BFloat16 Mode Switch Vector LMUL Extension Intrinsics
+Intrinsics here don't have a policy variant.
+
+[[policy-variant-overloadedbf16-mode-switch-vector-lmul-truncation]]
+==== BFloat16 Mode Switch Vector LMUL Truncation Intrinsics
+Intrinsics here don't have a policy variant.
+
+[[policy-variant-overloadedbf16-mode-switch-vector-initialization]]
+==== BFloat16 Mode Switch Vector Initialization Intrinsics
+Intrinsics here don't have a policy variant.
+
+[[policy-variant-overloadedbf16-mode-switch-vector-insertion]]
+==== BFloat16 Mode Switch Vector Insertion Intrinsics
+Intrinsics here don't have a policy variant.
+
+[[policy-variant-overloadedbf16-mode-switch-vector-extraction]]
+==== BFloat16 Mode Switch Vector Extraction Intrinsics
+Intrinsics here don't have a policy variant.
+
+[[policy-variant-overloadedbf16-mode-switch-vector-creation]]
+==== BFloat16 Mode Switch Vector Creation Intrinsics
+Intrinsics here don't have a policy variant.

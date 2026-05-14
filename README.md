@@ -1,4 +1,4 @@
-# Andes Intrinsic Document 
+# Andes Intrinsic Document
 
 ## [Andes Scalar Intrinsic Document](./andes-scalar-intrinsic.md)
 
@@ -14,11 +14,11 @@ that do not included in [RISC-V Vector Intrinsic v1.0.0-rc7](https://github.com/
 
 #### [Andes V5 Vector Extensions](./auto-generated/andes-v5/intrinsic_funcs.adoc)
 
-- [Andes Vector BFLOAT16 Conversion Extension (XAndesVBFHCvt)](./auto-generated/andes-v5/intrinsic_funcs.adoc#_andes_vector_bfloat16_conversion_extensionxandesvbfhcvt)
-- [Andes Vector Quad-Widening Integer Multiply-Add Extension (XAndesVQMac)](./auto-generated/andes-v5/intrinsic_funcs.adoc#_andes_vector_quad_widening_integer_multiply_add_extensionxandesvqmac)
-- [Andes Vector Dot Product Extension (XAndesVDot)](./auto-generated/andes-v5/intrinsic_funcs.adoc#_andes_vector_dot_product_extensionxandesvdot)
-- [Andes Vector Packed FP16 Extension (XAndesVPackFPH)](./auto-generated/andes-v5/intrinsic_funcs.adoc#_andes_vector_packed_fp16_extensionxandesvpackfph)
-- [Andes Vector INT4 Load Extension(XAndesVSIntLoad)](./auto-generated/andes-v5/intrinsic_funcs.adoc#_andes_vector_int4_load_extensionxandesvsintload)
+- [Andes Vector BFLOAT16 Conversion Extension (XAndesVBFHCvt)](./auto-generated/andes-v5/intrinsic_funcs.adoc#andes-vector-bfloat16-conversion-extensionxandesvbfhcvt)
+- [Andes Vector Quad-Widening Integer Multiply-Add Extension (XAndesVQMac)](./auto-generated/andes-v5/intrinsic_funcs.adoc#andes-vector-quad-widening-integer-multiply-add-extensionxandesvqmac)
+- [Andes Vector Dot Product Extension (XAndesVDot)](./auto-generated/andes-v5/intrinsic_funcs.adoc#andes-vector-dot-product-extensionxandesvdot)
+- [Andes Vector Packed FP16 Extension (XAndesVPackFPH)](./auto-generated/andes-v5/intrinsic_funcs.adoc#andes-vector-packed-fp16-extensionxandesvpackfph)
+- [Andes Vector INT4 Load Extension(XAndesVSIntLoad)](./auto-generated/andes-v5/intrinsic_funcs.adoc#andes-vector-int4-load-extensionxandesvsintload)
 
 #### [Andes Vector BFloat16 Mode Switch(XAndesVBFHMS)](./auto-generated/andes-bf16ms/intrinsic_funcs.adoc)
 
@@ -29,15 +29,14 @@ that do not included in [RISC-V Vector Intrinsic v1.0.0-rc7](https://github.com/
 
 #### [Andes V5 Vector Extensions](./auto-generated/andes-v5/overloaded_intrinsic_funcs.adoc)
 
-- [Andes Vector BFLOAT16 Conversion Extension (XAndesVBFHCvt)](./auto-generated/andes-v5/overloaded_intrinsic_funcs.adoc#_andes_vector_bfloat16_conversion_extensionxandesvbfhcvt)
-- [Andes Vector Quad-Widening Integer Multiply-Add Extension (XAndesVQMac)](./auto-generated/andes-v5/overloaded_intrinsic_funcs.adoc#_andes_vector_quad_widening_integer_multiply_add_extensionxandesvqmac)
-- [Andes Vector Dot Product Extension (XAndesVDot)](./auto-generated/andes-v5/overloaded_intrinsic_funcs.adoc#_andes_vector_dot_product_extensionxandesvdot)
-- [Andes Vector Packed FP16 Extension (XAndesVPackFPH)](./auto-generated/andes-v5/overloaded_intrinsic_funcs.adoc#_andes_vector_packed_fp16_extensionxandesvpackfph)
-- [Andes Vector INT4 Load Extension(XAndesVSIntLoad)](./auto-generated/andes-v5/overloaded_intrinsic_funcs.adoc#_andes_vector_int4_load_extensionxandesvsintload)
+- [Andes Vector BFLOAT16 Conversion Extension (XAndesVBFHCvt)](./auto-generated/andes-v5/overloaded_intrinsic_funcs.adoc#andes-vector-bfloat16-conversion-extensionxandesvbfhcvt)
+- [Andes Vector Quad-Widening Integer Multiply-Add Extension (XAndesVQMac)](./auto-generated/andes-v5/overloaded_intrinsic_funcs.adoc#andes-vector-quad-widening-integer-multiply-add-extensionxandesvqmac)
+- [Andes Vector Dot Product Extension (XAndesVDot)](./auto-generated/andes-v5/overloaded_intrinsic_funcs.adoc#andes-vector-dot-product-extensionxandesvdot)
+- [Andes Vector Packed FP16 Extension (XAndesVPackFPH)](./auto-generated/andes-v5/overloaded_intrinsic_funcs.adoc#andes-vector-packed-fp16-extensionxandesvpackfph)
+- [Andes Vector INT4 Load Extension(XAndesVSIntLoad)](./auto-generated/andes-v5/overloaded_intrinsic_funcs.adoc#andes-vector-int4-load-extensionxandesvsintload)
 
 
 #### [Andes Vector BFloat16 Mode Switch(XAndesVBFHMS)](./auto-generated/andes-bf16ms/overloaded_intrinsic_funcs.adoc)
 
 #### [RISC-V Vector Crypto Extension](./auto-generated/vector-crypto/overloaded_intrinsic_funcs.adoc)
 ### [RISC-V Zvfbfmin and Zvfbfwma Extension](auto-generated/bfloat16/overloaded_intrinsic_funcs.adoc)
-
